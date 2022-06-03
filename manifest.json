@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "instagram_fixer",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.instagram.com/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
